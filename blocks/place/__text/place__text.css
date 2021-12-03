@@ -1,0 +1,6 @@
+.place__text {
+	display: grid;
+	align-self: flex-start;
+	grid-template-rows: repeat(2, auto);
+	gap: 26px 0;
+}

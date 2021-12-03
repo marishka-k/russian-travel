@@ -1,0 +1,7 @@
+.places {
+	padding: 0 148px;
+	display: grid;
+	align-self: flex-start;
+	grid-template-rows: repeat(5, auto);
+	gap: 80px 0;
+}
