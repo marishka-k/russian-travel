@@ -1,0 +1,7 @@
+.cover {
+	min-height: 740px;
+	margin: 0 48px;
+	background-image: url(../../images/baikalwithdogs.jpg);
+	background-size: cover;
+  background-position: center;
+}
