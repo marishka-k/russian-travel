@@ -1,3 +1,15 @@
 .page__content {
 	padding: 0 48px;
 }
+
+@media all and (max-width: 850px) {
+	.page__content {
+		padding: 0 24px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.page__content {
+		padding: 0 16px;
+	}
+}

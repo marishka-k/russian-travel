@@ -12,3 +12,19 @@
 	font-weight: 400;
 	line-height: 36px;
 }
+
+@media all and (max-width: 1200px) {
+	.lead__subtitle {
+		font-size: 30px;
+		line-height: 36px;
+		margin: 0 auto 56px;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.lead__subtitle {
+		font-size: 16px;
+		line-height: 20px;
+		margin: 0 auto 40px;
+	}
+}

@@ -2,7 +2,14 @@
 	display: flex;
 	margin: 0 auto;
 	padding-top: 28px;
-	height: 52px;
+	min-height: 52px;
 	justify-content: space-between;
 	align-items: center;
+}
+
+@media all and (max-width: 700px) {
+	.header {
+		padding-top: 16px;
+		min-height: 42px;
+	}
 }

@@ -5,3 +5,23 @@
 	grid-template-rows: repeat(5, auto);
 	gap: 80px 0;
 }
+
+@media all and (max-width: 1000px) {
+	.places {
+		padding: 0 48px;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.places {
+		padding: 0 24px;
+		gap: 72px 0;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.places {
+		padding: 0;
+		gap: 50px 0;
+	}
+}

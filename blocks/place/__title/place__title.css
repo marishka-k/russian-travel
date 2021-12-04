@@ -4,9 +4,34 @@
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 	display: flex;
-	max-width: min-content;
+	max-width: 460px;
 	text-align: left;
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 76px;
+}
+
+@media all and (max-width: 1200px) {
+	.place__title {
+		max-width: 440px;
+		font-size: 42px;
+		line-height: 46px;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.place__title {
+		max-width: 340px;
+		font-size: 42px;
+		line-height: 46px;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.place__title {
+		max-width: 320px;
+		font-size: 32px;
+		line-height: 35px;
+		padding: 0 16px;
+	}
 }

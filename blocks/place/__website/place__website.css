@@ -4,3 +4,10 @@
 	align-self: flex-end;
 	justify-self: start;
 }
+
+
+@media all and (max-width: 700px) {
+	.place__website {
+		padding: 0 16px;
+	}
+}
