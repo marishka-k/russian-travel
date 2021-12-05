@@ -8,13 +8,13 @@
 @media all and (max-width: 1000px) {
 	.main {
 		gap: 88px;
-		padding-bottom: 88px;
+		padding-bottom: 60px;
 	}
 }
 
 @media all and (max-width: 700px) {
 	.main {
 		gap: 64px;
-		padding-bottom: 64px;
+		padding-bottom: 40px;
 	}
 }

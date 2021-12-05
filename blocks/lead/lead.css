@@ -1,5 +1,6 @@
 .lead {
 	padding: 56px 148px 0;
+	align-items: center;
 }
 
 @media all and (max-width: 1200px) {

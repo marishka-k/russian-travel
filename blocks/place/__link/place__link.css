@@ -10,3 +10,9 @@
 .place__link:hover{
 	opacity: .8;
 }
+
+@media all and (max-width: 700px) {
+	.place__link {
+		transform: translate(0, 5px);
+	}
+}
