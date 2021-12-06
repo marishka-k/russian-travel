@@ -1,23 +1,23 @@
 .place__image {
-	object-fit: cover;
-	max-width: 460px;
-	justify-self: center;
+  object-fit: cover;
+  max-width: 460px;
+  justify-self: center;
 }
 
 @media all and (max-width: 1200px) {
-	.place__image {
-		max-width: 440px;
-	}
+  .place__image {
+    max-width: 440px;
+  }
 }
 
 @media all and (max-width: 1000px) {
-	.place__image {
-		max-width: 340px;
-	}
+  .place__image {
+    max-width: 340px;
+  }
 }
 
 @media all and (max-width: 700px) {
-	.place__image {
-		max-width: 320px;
-	}
+  .place__image {
+    max-width: 320px;
+  }
 }
