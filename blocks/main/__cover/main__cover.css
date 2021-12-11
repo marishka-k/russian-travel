@@ -1,0 +1,9 @@
+.main__cover {
+  margin: 0 48px;
+}
+
+@media all and (max-width: 1200px) {
+  .main__cover {
+    margin: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.main__lead {
+  padding: 56px 148px 0;
+}
+
+@media all and (max-width: 1200px) {
+  .main__lead {
+    padding: 48px 48px 0;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .main__lead {
+    padding: 48px 0 0;
+  }
+}

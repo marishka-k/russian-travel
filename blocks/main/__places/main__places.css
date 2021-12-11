@@ -1,0 +1,21 @@
+.main__places {
+  padding: 0 148;
+}
+
+@media all and (max-width: 1200px) {
+  .main__places {
+    padding: 0 48px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .main__places {
+    padding: 0 24px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .main__places {
+    padding: 0;
+  }
+}
